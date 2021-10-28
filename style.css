@@ -81,16 +81,24 @@ body {
     font-size: 59px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    margin-right: 0px;
     margin-top: 155px;
-    margin-left: 428px;
+    /* margin-left: 27.7%; */
 }
 
 .intro_caption>p {
     font-size: 23px;
     font-family: Colibri;
     color: #fff;
-    margin-top: 5px;
-    margin-left: 520px;
+    margin-top: 13px;
+    margin-right: 0px;
+    /* margin-left: 520px; */
+}
+
+.button_panel {
+    width: 100%;
+    height: 50px;
+    margin-top: 72px;
 }
 
 .intro_button1 {
@@ -107,8 +115,8 @@ body {
     color: #fff;
     vertical-align: top;
     width: fit-content;
-    margin-left: 554px;
-    margin-top: 72px;
+    /* margin-left: 554px; */
+    /* margin-top: 72px; */
     transition: background .2s linear;
 }
 
@@ -133,7 +141,8 @@ body {
     vertical-align: top;
     width: fit-content;
     margin-left: 25px;
-    margin-top: 72px;
+    margin-right: 22px;
+    /* margin-top: 72px; */
     transition: background .2s linear;
 }
 
@@ -150,4 +159,100 @@ body {
     background-repeat: no-repeat;
     background-size: auto 15px;
     background-image: url(..//homework2/ARW.png);
+}
+
+
+/* About Us */
+
+.about_us_bg {
+    width: 100%;
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_us_h {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 117px;
+}
+
+.about_us_caption {
+    font-family: Colibri;
+    letter-spacing: .4px;
+    margin-top: 35px;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+}
+
+.benefits_panel {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit_block {
+    height: 199px;
+    width: 253px;
+    margin: 122px 72.5px auto 72.5px;
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_web {
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: auto 51px;
+    background-position: center;
+    margin: 7px;
+    margin-bottom: 0;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/149/149229.png);
+}
+
+.benefit_block_h {
+    font-family: Arial;
+    letter-spacing: .3px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgba(31, 31, 31, 0.932);
+}
+
+.benefit_block_c {
+    font-family: Colibri;
+    letter-spacing: .3px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+}
+
+.icon_switch {
+    width: 62px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    background-image: url(https://static.thenounproject.com/png/1601511-200.png);
+}
+
+.icon_think {
+    width: 62px;
+    height: 62px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    background-image: url(https://img1.freepng.ru/20180319/lqe/kisspng-mental-health-body-therapy-psychotherapist-thinking-icon-png-5ab08621747850.8135864115215181134771.jpg);
+}
+
+
+/* Spacing */
+
+.space {
+    height: 190px;
+    width: 100%;
 }
