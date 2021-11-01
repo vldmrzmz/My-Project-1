@@ -268,6 +268,9 @@ body {
 }
 
 
+
+
+
 /* Services */
 
 .our_services_bg {
@@ -276,6 +279,7 @@ body {
     margin-top: 16px;
     background-color: #e4fdf9;
     display: flex;
+    align-content: center;
     flex-direction: column;
 }
 
@@ -287,29 +291,23 @@ body {
     justify-content: space-around;
 } */
 
-.serv_block_panel_1 {
-    height: 370px;
-    width: 100%;
-    margin-bottom: 0;
-    margin-top: 36px;
+.serv_block_container {
+    height: 825px;
+    width: 1240px;
+    margin: 48px auto;
     display: flex;
     justify-content: center;
-}
-
-.serv_block_panel_2 {
-    height: 370px;
-    width: 100%;
-    margin-bottom: 0;
-    margin-top: 48px;
-    display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .serv_block {
     height: 388px;
     width: 370px;
-    margin-right: 31px;
+    margin: 15px;
     background-color: #fff;
+    display: flex;
+        flex-direction: column;
+    justify-content: center;
 }
 
 .black_phone_icon {
@@ -349,22 +347,6 @@ body {
 }
 
 
-/* Button for "Our Services" */
-
-.our_services_bg .secondary_button {
-    width: 145px;
-    height: 50px;
-    margin: 0;
-    margin-top: 42px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: #000;
-    color: #000;
-}
-
-
 /* Lasest work */
 
 .latest_work_block {
@@ -394,6 +376,21 @@ body {
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     transition: background .2s linear;
+}
+
+/* Button for "Our Services" */
+
+.our_services_button {
+    width: 145px;
+    height: 50px;
+    margin: 0;
+    margin-top: 42px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    color: #000;
 }
 
 .latest_work_block nav a {
